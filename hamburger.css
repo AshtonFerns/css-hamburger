@@ -44,8 +44,8 @@
     top: calc(var(--hamburger-height) / 2 + var(--hamburger-line-spacing) - var(--hamburger-line-weight) / 2)
 }
 #hamburger:checked::before {
-    transform: rotate(45deg) translate(calc(var(--hamburger-line-spacing) / 1.4142135624), calc(var(--hamburger-line-spacing) / 1.4142135624))
+    transform: rotate(45deg) translate(calc(var(--hamburger-line-spacing) / 1.414), calc(var(--hamburger-line-spacing) / 1.414))
 }
 #hamburger:checked::after {
-    transform: rotate(-45deg) translate(calc(var(--hamburger-line-spacing) / 1.4142135624), calc(var(--hamburger-line-spacing) * -0.7071067812))
+    transform: rotate(-45deg) translate(calc(var(--hamburger-line-spacing) / 1.414), calc(var(--hamburger-line-spacing) * -0.707))
 }
