@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Hamburger</title>
+    <link rel="stylesheet" href="hamburger.css">
+    <style>
+        #popup {
+            opacity: 0;
+        }
+        #hamburger:checked ~ #popup {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="hamburger" title="Menu">
+    <div id="popup">This is a popup</div>
+</body>
+</html>
